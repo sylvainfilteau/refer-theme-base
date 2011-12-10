@@ -1,5 +1,7 @@
 @import 'compass';
 @import 'neptune/default/all';
+@import '../../highlighter/sass/shCore';
+@import '../../highlighter/sass/shThemeMidnight';
 
 //$base-color: gray;
 @include extjs-panel-ui(

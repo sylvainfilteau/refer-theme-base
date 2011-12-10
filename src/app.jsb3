@@ -32,9 +32,50 @@
             ]
         },
         {
+        	"name": "Highlighter",
+        	"target": "highlighter.js",
+        	"options": {
+        		"debug": true
+        	},
+        	"files": [
+        		{
+        			"path": "highlighter/js/",
+        			"name": "XRegExp.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shCore.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shBrushBash.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shBrushCss.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shBrushJScript.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shBrushPhp.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shBrushSql.js"
+        		},
+        		{
+        			"path": "highlighter/js/",
+        			"name": "shBrushXml.js"
+        		}
+        	]
+        },
+        {
             "name": "Application - Production",
             "target": "app-all.js",
-            "compress": true,
+            "compress": false,
             "files": [
                 {
                     "path": "",
@@ -43,6 +84,10 @@
                 {
                     "path": "",
                     "name": "app.js"
+                },
+                {
+                	"path": "",
+                	"name": "highlighter.js"
                 }
             ]
         }
