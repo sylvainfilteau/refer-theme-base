@@ -55,15 +55,20 @@ $ui-body-background-color: #1c1c1c
 
 	p {
 		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
-	ul {
+	ul, ol {
 		margin-top: 10px;
 		padding-left: 20px;
 	}
 
-	li {
+	ul li {
 		list-style-type: disc;
+	}
+
+	ol li {
+		list-style-type: decimal;
 	}
 
 	ul > li > ul > li {
@@ -72,6 +77,23 @@ $ui-body-background-color: #1c1c1c
 
 	ul ul {
 		margin-top: 0;
+	}
+
+	pre {
+		padding: 15px;
+		border: 1px solid black;
+		background-color: #242527;
+		@include border-radius(5px);
+		@include box-shadow(1px);
+	}
+
+	code {
+		font-family: "Ubuntu Mono";
+		color: #7B95BA;
+	}
+
+	a {
+		color: #6DDEDD;
 	}
 }
 

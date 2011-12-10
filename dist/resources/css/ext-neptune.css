@@ -12875,7 +12875,7 @@ textarea.x-form-invalid-field {
   vertical-align: middle;
   *vertical-align: auto;
 }
-/* line 7, ../../../../../../../../../../var/lib/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+/* line 7, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
 .x-surface {
   *display: inline;
 }
@@ -14250,21 +14250,51 @@ textarea.x-form-invalid-field {
 /* line 56, ../sass/ext-neptune.scss */
 .x-panel-body-page p {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
-/* line 60, ../sass/ext-neptune.scss */
-.x-panel-body-page ul {
+/* line 61, ../sass/ext-neptune.scss */
+.x-panel-body-page ul, .x-panel-body-page ol {
   margin-top: 10px;
   padding-left: 20px;
 }
-/* line 65, ../sass/ext-neptune.scss */
-.x-panel-body-page li {
+/* line 66, ../sass/ext-neptune.scss */
+.x-panel-body-page ul li {
   list-style-type: disc;
 }
-/* line 69, ../sass/ext-neptune.scss */
+/* line 70, ../sass/ext-neptune.scss */
+.x-panel-body-page ol li {
+  list-style-type: decimal;
+}
+/* line 74, ../sass/ext-neptune.scss */
 .x-panel-body-page ul > li > ul > li {
   list-style-type: circle;
 }
-/* line 73, ../sass/ext-neptune.scss */
+/* line 78, ../sass/ext-neptune.scss */
 .x-panel-body-page ul ul {
   margin-top: 0;
+}
+/* line 82, ../sass/ext-neptune.scss */
+.x-panel-body-page pre {
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #242527;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 1px;
+  -webkit-box-shadow: 1px;
+  -o-box-shadow: 1px;
+  box-shadow: 1px;
+}
+/* line 90, ../sass/ext-neptune.scss */
+.x-panel-body-page code {
+  font-family: "Ubuntu Mono";
+  color: #7B95BA;
+}
+/* line 95, ../sass/ext-neptune.scss */
+.x-panel-body-page a {
+  color: #6DDEDD;
 }
