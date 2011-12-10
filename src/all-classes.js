@@ -87,6 +87,8 @@ Ext.define('Refer.view.Page', {
 
 	ui: 'page',
 
+	autoScroll: true,
+
 	loadPage: function(page) {
 		var me = this;
 
