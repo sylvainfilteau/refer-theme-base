@@ -1,0 +1,51 @@
+{
+    "projectName": "Refer base theme",
+    "licenseText": "Copyright(c) 2011 Sylvain Filteau",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "all-classes.js",
+            "options": {
+                "debug": true
+            },
+            "files": [
+                {
+                    "path": "app/proxy/",
+                    "name": "Page.js"
+                },
+                {
+                    "path": "app/store/",
+                    "name": "PageStore.js"
+                },
+                {
+                    "path": "app/view/",
+                    "name": "PageTree.js"
+                },
+                {
+                    "path": "app/view/",
+                    "name": "Page.js"
+                },
+                {
+                    "path": "app/controller/",
+                    "name": "Pages.js"
+                }
+            ]
+        },
+        {
+            "name": "Application - Production",
+            "target": "app-all.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "",
+                    "name": "all-classes.js"
+                },
+                {
+                    "path": "",
+                    "name": "app.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}
